@@ -4,9 +4,6 @@
   "parameters": {
     "projectName": {
       "type": "string",
-      "metadata": {
-        "description": "projectName name, should be lowercase"
-      },
       "value": "pgsonarqube"
     },
     "location": {
