@@ -4,8 +4,8 @@
   "variables": {
     "sonarCollation": "Latin1_General_100_CS_AS",
     "appServiceName": "pgsonarqube",
-    "sqlServerName": "concat('pgsonarqube', '-sql')",
-    "databaseName": "concat('pgsonarqube', '-db')",
+    "sqlServerName": "[concat('pgsonarqube', '-sql')]",
+    "databaseName": "[concat('pgsonarqube', '-db')]",
     "WebAppName": "pgsonarqube",
     "applicationInsightsName": "pgsonarqube"
   },
